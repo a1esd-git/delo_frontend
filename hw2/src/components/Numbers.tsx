@@ -1,4 +1,4 @@
-import NumbersItem from './NumbersItem'
+import NumbersItem from "./NumbersItem"
 
 
 type NumbersProps = {

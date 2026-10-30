@@ -1,11 +1,13 @@
-import './App.css'
+import '../src/css/App.css'
 
-import Hero from './Hero'
+import Hero from '../src/components/Hero'
+import Projects from './components/Projects'
 
 function App(){
     return(
         <main>
-          <Hero/>
+            <Hero/>
+            <Projects/>
         </main>
     )
 }
