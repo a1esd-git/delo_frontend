@@ -1,4 +1,4 @@
-// import './Numbers.css'
+import '../css/Numbers.css'
 
 type NumbersItemProps = {
     num: number
@@ -8,17 +8,18 @@ type NumbersItemProps = {
 
 function NumbersItem({num, subtitle, description}: NumbersItemProps){
     return(
-        <>
-        <h2 className="numbers_title">
-            {num}
-        </h2>
-        <p className="numbers_subtitle">
-            {subtitle}
-        </p>
-        <p className="numbers_description">
-            {description}
-        </p>
-        </>
+        
+        <div className="numbers_item">
+            <h2 className="numbers_title">
+                {num}
+            </h2>
+            <p className="numbers_subtitle">
+                {subtitle}
+            </p>
+            <p className="numbers_description">
+                {description}
+            </p>
+        </div>
     )
 }
 

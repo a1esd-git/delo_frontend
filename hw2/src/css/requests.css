@@ -1,0 +1,40 @@
+
+.requests{
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 405px 45px 405px;
+    font-family: 'Oswald';
+}
+
+.requests_title{
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: 2%;
+    margin-bottom: 6px;
+}
+
+.requests_description {
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2%;
+}
+
+button{
+    padding: 14px 46px;
+    background-color: var(--white-color);
+    border: 0px;
+}
+
+button > a{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 5%;
+    text-decoration: none;
+    font-family: 'Oswald';
+}

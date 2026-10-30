@@ -1,0 +1,50 @@
+.projects{
+    background-color: var(--white-color);
+    color: var(--dark-color);
+    padding: 200px 405px 170px 405px;
+    font-family: 'Oswald';
+}
+
+.project_title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.projects-cards{
+    color: var(--dark-color);
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+
+.projects_item{
+    margin-right: 40px;
+}
+
+span{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: block;
+    width: 55px;
+    height: 6px;
+    background-color: var(--accent-color);
+}
+
+.project_item_title{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.project_item_description{
+    font-family: 'Open Sans';
+    color: var(--grey-color);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 10px;
+}

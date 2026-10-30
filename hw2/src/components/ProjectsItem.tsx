@@ -1,4 +1,4 @@
-// import ''
+import "../css/projects.css"
 
 type ProjectsItemProps = {
     img: string

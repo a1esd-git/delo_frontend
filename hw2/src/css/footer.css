@@ -1,0 +1,23 @@
+footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 405px 20px 405px;
+    font-family: 'Open Sans';
+}
+
+.footer_title {
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer_description {
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+

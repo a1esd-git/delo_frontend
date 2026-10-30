@@ -1,4 +1,5 @@
 import Numbers from "./Numbers"
+import "../css/hero.css"
 
 function Hero(){
     return(

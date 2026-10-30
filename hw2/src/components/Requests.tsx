@@ -1,4 +1,4 @@
-
+import "../css/requests.css"
 
 function Requests(){
     return(

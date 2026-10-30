@@ -1,4 +1,5 @@
 import ProjectsItem from "./ProjectsItem"
+import "../css/projects.css"
 
 type ProjectsProps = {
     img: string
@@ -16,9 +17,9 @@ function Projects(){
     ]
 
     return (
-        <>
+        <section className="projects">
         <h3 className="project_title">НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ</h3>
-        
+        <div className="projects-cards">
         {projects.map((project) => (
             <ProjectsItem
                 img={project.img}
@@ -27,7 +28,8 @@ function Projects(){
             />
             ))
         }
-        </>
+        </div>
+        </section>
     )
         
 }
