@@ -7,8 +7,8 @@ type NumbersItemProps = {
 }
 
 function NumbersItem({num, subtitle, description}: NumbersItemProps){
+    
     return(
-        
         <div className="numbers_item">
             <h2 className="numbers_title">
                 {num}

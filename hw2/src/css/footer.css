@@ -1,10 +1,13 @@
 footer{
     background-color: #000000;
+}
+
+.footer_content{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 20px 405px 20px 405px;
+    padding: 20px 0px 20px 0px;
     font-family: 'Open Sans';
 }
 
@@ -20,4 +23,17 @@ footer{
     font-weight: 400;
 }
 
+@media (min-width: 375px) {
+    .footer_title, .footer_description{
+        font-size: clamp(12px, 1vw, 18px);
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1920px) {
+    
+}
 

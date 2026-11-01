@@ -1,12 +1,16 @@
 
 .requests{
     background-color: var(--accent-color);
-    color: var(--white-color);
+    
+}
+
+.requests_content{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 30px 405px 45px 405px;
+    padding: 30px 0px 45px 0px;
+    color: var(--white-color);
     font-family: 'Oswald';
 }
 
@@ -24,17 +28,66 @@
     letter-spacing: 2%;
 }
 
-button{
+.btn{
     padding: 14px 46px;
     background-color: var(--white-color);
     border: 0px;
 }
 
-button > a{
+.btn-link{
     color: #000;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 5%;
     text-decoration: none;
     font-family: 'Oswald';
+}
+
+@media (min-width: 375px) {
+    .requests_content{
+        padding: 30px 0px 45px 0px;
+        color: var(--white-color);
+        font-family: 'Oswald';
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 40px;
+        
+    }
+    .btn{
+        padding: clamp(10px, 2.5vw, 40px) clamp(100px, 20vw, 250px);
+        background-color: var(--white-color);
+        border: 0px;
+    }
+    .requests_title{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 768px) {
+        .requests_content{
+            padding: 30px 0px 45px 0px;
+            color: var(--white-color);
+            font-family: 'Oswald';
+
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            column-gap: clamp(40px, 10vw, 100px);
+        }
+        .btn{
+            padding: 14px 46px;
+            background-color: var(--white-color);
+            border: 0px;
+        }
+
+        .requests_title{
+            margin-bottom: 20px;
+        }
+}
+
+@media (min-width: 1920px) {
+
 }

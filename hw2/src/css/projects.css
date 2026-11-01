@@ -1,9 +1,10 @@
 .projects{
     background-color: var(--white-color);
     color: var(--dark-color);
-    padding: 200px 405px 170px 405px;
+    padding: 200px 0px 170px 0px;
     font-family: 'Oswald';
 }
+
 
 .project_title{
     text-align: center;
@@ -24,7 +25,11 @@
     margin-right: 40px;
 }
 
-span{
+.projects_item:last-child{
+    margin-right: 0px;
+}
+
+.project_item_line{
     margin-top: 20px;
     margin-bottom: 15px;
     display: block;
@@ -47,4 +52,65 @@ span{
     font-weight: 400;
     text-align: left;
     padding-top: 10px;
+}
+
+@media (min-width: 375px) {
+    .projects{
+        padding: 100px 0px 80px 0px;
+    }
+    .project_title{
+        font-size: 36px;
+        margin-bottom: 60px;
+    }
+    .projects-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: clamp(40px, 10vw, 80px);
+    }
+    .projects_item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 350px;
+    }
+    .project_item_description{
+        text-align: center;
+    }
+    .projects_item{
+        margin-right: 0px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .projects{
+        padding: 200px 0px 170px 0px;
+        display: flex;
+    }
+    .project_title{
+        font-size: 36px;
+        margin-bottom: 60px;
+    }
+    .projects-cards{
+        display: flex;
+        flex-direction: row;
+
+        /* column-gap: clamp(40px, 10vw, 80px); */
+    }
+    .projects_item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+    }
+    .project_item_description{
+        text-align: center;
+    }
+}
+
+@media (min-width: 1920px) {
+
 }

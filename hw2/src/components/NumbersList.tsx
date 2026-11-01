@@ -8,7 +8,7 @@ type NumbersProps = {
 }
 
 
-function Numbers() {
+function NumbersList() {
 
   const numbers: NumbersProps[] = [
     {num: 26, subtitle: "лет", description: "на рынке"},
@@ -31,4 +31,4 @@ function Numbers() {
   )
 }
 
-export default Numbers
+export default NumbersList
